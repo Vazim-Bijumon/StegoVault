@@ -1,12 +1,13 @@
-<p align="center">
-  <img src="src/main/resources/images/logo.png" alt="StegoVault logo" width="150">
-</p>
-
-<h1 align="center">StegoVault</h1>
-
-<p align="center">
-  Offline PNG steganography with AES-GCM-encrypted, integrity-checked payloads.
-</p>
+<table>
+  <tr>
+    <td align="center" valign="middle">
+      <img src="src/main/resources/images/logo.png" alt="StegoVault logo" width="140">
+    </td>
+    <td align="center" valign="middle">
+      <h1>StegoVault</h1>
+    </td>
+  </tr>
+</table>
 
 ## Overview
 
