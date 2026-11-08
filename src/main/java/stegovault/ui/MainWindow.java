@@ -87,25 +87,27 @@ Sidebar sidebar = new Sidebar(
        ImageView logo = new ImageView(
         new Image(
                 getClass()
-                        .getResourceAsStream("/images/logo.jpg")
+                        .getResourceAsStream("/images/logo.png")
         )
 );
 
-logo.setFitHeight(55);
+logo.setFitHeight(64);
 logo.setPreserveRatio(true);
+logo.setSmooth(true);
 
 Label title = new Label("StegoVault");
 title.setStyle(
-        "-fx-font-size: 24px; -fx-font-weight: bold;"
+        "-fx-font-size: 26px; " +
+        "-fx-font-weight: bold; " +
+        "-fx-text-fill: #F1F5F9;"
 );
 
-Label privacyNote =
-        new Label(
-                "Offline by default. Your files stay on this device."
-        );
-
+Label privacyNote = new Label(
+        "Offline by default. Your files stay on this device."
+);
 privacyNote.setStyle(
-        "-fx-text-fill: #5f6368;"
+        "-fx-font-size: 12px; " +
+        "-fx-text-fill: #A7B4C7;"
 );
 
 VBox text = new VBox(
