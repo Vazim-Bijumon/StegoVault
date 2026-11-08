@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="src/main/resources/images/logo.jpg" alt="StegoVault logo" width="520">
+  <img src="src/main/resources/images/logo.png" alt="StegoVault logo" width="150">
 </p>
 
 <h1 align="center">StegoVault</h1>
